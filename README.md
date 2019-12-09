@@ -15,6 +15,7 @@ The App has been built using the Following Libraries:
 1.  [AGM-Core](https://angular-maps.com/)
 2.  [Angular Material](https://material.angular.io/) - For Modal, Input and the Buttons
 3.  [Materialize Css](https://materializecss.com/) - For a card View and a base layout and Typography
+4.  [@types/googlemaps] For Google namespace and classes
 
 ## Project Structure
 
