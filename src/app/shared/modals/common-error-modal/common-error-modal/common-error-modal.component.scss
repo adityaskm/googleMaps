@@ -1,0 +1,9 @@
+@import '../../../styles/theme/_variables.scss';
+
+.mat-dialog-title {
+  color: darken($blue-gray, 20%);
+  margin: 0px;
+}
+.error-message {
+  color: darken($blue-gray, 30%);
+}

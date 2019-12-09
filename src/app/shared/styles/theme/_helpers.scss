@@ -1,0 +1,29 @@
+.transition {
+  &-color {
+    transition: $default-transition-duration ease color;
+  }
+}
+
+.cursor {
+  &-pointer {
+    cursor: pointer;
+  }
+  &-not-allowed {
+    cursor: not-allowed;
+  }
+}
+
+.flex {
+  &-justify-end {
+    justify-content: flex-end;
+  }
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.mat-form-field {
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>We Encountered an Error</h1>
+<div mat-dialog-content>
+  <p class="error-message" [innerHTML]="data"></p>
+</div>
+<div mat-dialog-actions class="flex-justify-end">
+  <button mat-raised-button color="primary" (click)="closeModal()" class="btn">
+    OK
+  </button>
+</div>

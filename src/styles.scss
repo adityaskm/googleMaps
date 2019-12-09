@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './app/shared/styles/materialize/materialize.scss';
+@import './app/shared/styles/theme/theme.scss';
+@import './app/shared/styles/angular-material/angular-material';
+
+.si-float-wrapper {
+  .si-content-wrapper {
+    .si-content {
+      overflow: hidden;
+      width: 400px;
+      max-width: unset !important;
+      max-height: 300px !important;
+      .material-icons {
+        color: $blue-gray;
+        vertical-align: middle;
+        font-size: 16px;
+        @extend .transition-color;
+        @extend .cursor-pointer;
+        &:hover {
+          color: darken($blue-gray, 10%);
+        }
+      }
+    }
+  }
+}
+
+.card {
+  border-radius: 6px;
+  overflow: hidden;
+  .card-title {
+    color: darken($blue-gray, 20%);
+  }
+  .description-text {
+    color: darken($blue-gray, 30%);
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}

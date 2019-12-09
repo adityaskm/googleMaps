@@ -1,0 +1,41 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$msm-grey: (
+  50: #fafafa,
+  100: darken($blue-gray, 10%),
+  200: darken($blue-gray, 15%),
+  300: darken($blue-gray, 20%),
+  400: darken($blue-gray, 25%),
+  500: darken($blue-gray, 30%),
+  600: darken($blue-gray, 35%),
+  700: darken($blue-gray, 40%),
+  800: darken($blue-gray, 45%),
+  900: darken($blue-gray, 50%),
+  A100: darken($blue-gray, 10%),
+  A200: darken($blue-gray, 30%),
+  A400: darken($blue-gray, 35%),
+  A700: darken($blue-gray, 40%),
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $dark-primary-text,
+    A700: $light-primary-text
+  )
+);
+
+$theme-primary: mat-palette($msm-grey);
+$theme-accent: mat-palette($mat-amber, A200, A100, A400);
+$theme-warn: mat-palette($mat-pink);
+$new-theme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
+@include angular-material-theme($new-theme);
