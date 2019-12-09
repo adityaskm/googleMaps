@@ -1,6 +1,6 @@
-# GoogleMapsAutocompleteDirective [Angular v8.3.2]
+# GoogleMaps [Angular v8.3.2]
 
-Hello This is a sample Project in Angular for using Google Places Autocomplete with the native Angular Google Maps.
+Hello This is a sample Project in Angular for using Google Places Autocomplete with the native Angular Google Maps and customising the map dynamically.
 
 ## How to Run:
 
